@@ -29,7 +29,6 @@ padding: 0;
 
 main{
 max-width: 840px;
-
 }
 
 aside{
@@ -51,14 +50,11 @@ main img{
     width: 150px;
     height: auto;
     
-    }
-
-    footer{
+ }
+ footer{
 margin-top: 15px;
 border-top: 1px solid #000;
 text-align: center;
-
-
-    }
+ }
 
     
