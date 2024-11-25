@@ -4,6 +4,7 @@
     --secondary-color:#68C3D4 ;
     --accent2:#568EA3 ;
     --accent1: #826251;
+    --other: #FFFFFF;
 
     --heading-font: 'Roboto', sans-serif ;
     --text-font-h1:  100;
@@ -40,7 +41,7 @@ font-weight: var(--tex-font-h2);
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    color: #568EA3;
+    color:var(--other);
 
 }
 
@@ -84,7 +85,11 @@ nav {
 
 }
 
+section p{
 
+color: var(--secondary-color);
+
+}
 
   
 
@@ -106,14 +111,14 @@ article p{
 article{
   position:absolute;  
   bottom: 50px;
-  background-color: #FFE8D1;
+  background-color: #ffe8d138;
   margin: 8rem;
   height: 180px;
   
   
-
-
 }
+
+
 .img3{
     height: 150px;
 }
@@ -138,9 +143,11 @@ article{
     position: absolute;
     top: 50px;
     bottom: 600px;
+    color: white;
     left: 500px;
-    background-color:#FFE8D6; 
+    background-color:#ffe8d138; 
     height: min-content;
 
 
 }
+
