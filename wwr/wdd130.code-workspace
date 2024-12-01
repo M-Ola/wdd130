@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../CSE 110"
+		},
+		{
+			"path": "../../../Downloads/9.1 Flex Direction"
+		},
+		{
+			"path": "../../../Downloads/10.0 Display Grid"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "10.0 Display Grid"
+	}
+}

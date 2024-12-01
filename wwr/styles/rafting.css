@@ -1,13 +1,13 @@
 :root {
 
     --primary-color: #FFE8D1;
-    --secondary-color:#68C3D4 ;
-    --accent2:#568EA3 ;
+    --secondary-color: #194A52;
+    --accent2: #568EA3;
     --accent1: #826251;
     --other: #FFFFFF;
 
-    --heading-font: 'Roboto', sans-serif ;
-    --text-font-h1:  100;
+    --heading-font: 'Roboto', sans-serif;
+    --text-font-h1: 100;
     --tex-font-h2: 400;
 
 }
@@ -15,9 +15,12 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-   
-    
-   
+    display: block;
+    width: auto;
+    margin: 4rem;
+
+
+
 
 }
 
@@ -27,11 +30,11 @@ h1 {
     color: #568EA3;
 }
 
-h2{
+h2 {
 
-font-family: var(--heading-font);
-color: var(--secondary-color);
-font-weight: var(--tex-font-h2);
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-weight: var(--tex-font-h2);
 
 
 }
@@ -41,28 +44,29 @@ font-weight: var(--tex-font-h2);
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    color:var(--other);
+    color: var(--other);
 
 }
 
 nav {
 
     background-color: #FFE8D1;
-    
+    text-align: right;
+
 
 }
 
 
- nav  a {
+nav a {
     text-decoration: none;
     color: var(--secondary-color);
 
 }
 
 .hero {
-  position: relative;
-   
-   
+    position: relative;
+
+
 
 }
 
@@ -81,45 +85,45 @@ nav {
 .img2 {
     width: 100px;
     height: auto;
-    
+
 
 }
 
-section p{
+section p {
 
-color: var(--secondary-color);
-
-}
-
-  
-
-
-
-article img{
-float: right;
-padding-bottom:8rem ;
-padding-top: 14px;
-padding-right: 1rem;
+    color: var(--secondary-color);
 
 }
 
-article p{
+
+
+
+
+article img {
+    float: right;
+    padding-bottom: 8rem;
+    padding-top: 14px;
+    padding-right: 1rem;
+
+}
+
+article p {
 
     padding-left: 1rem;
 }
 
-article{
-  position:absolute;  
-  bottom: 50px;
-  background-color: #ffe8d138;
-  margin: 8rem;
-  height: 180px;
-  
-  
+article {
+    position: absolute;
+    bottom: 50px;
+    background-color: #ffe8d138;
+    margin: 8rem;
+    height: 180px;
+
+
 }
 
 
-.img3{
+.img3 {
     height: 150px;
 }
 
@@ -136,18 +140,118 @@ article{
     font-style: normal;
   }
  */
- 
- 
- .hero h1 {
+
+
+.hero h1 {
 
     position: absolute;
     top: 50px;
     bottom: 600px;
     color: white;
     left: 500px;
-    background-color:#ffe8d138; 
+    background-color: #ffe8d138;
     height: min-content;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ifr;
+   
+} */
+
+.section1 img{
+padding-left: 30rem;
+width: 300px;
+height: auto;
 
 
 }
 
+.section1 h2{
+
+    padding-left: 35rem;
+}
+
+
+
+
+ footer{
+display: flex;
+margin-top: 1rem;
+justify-content: flex-end;
+background-color: #FFE8D1;
+
+
+ }
+
+footer p{
+
+color: var(--secondary-color);
+padding-right: 20rem;
+
+}
+
+
+
+
+
+
+
+ .section2 h2{
+padding-left: 30rem;
+
+
+ }
+
+.fig{
+
+display: flex;
+justify-content: space-around;        
+
+}
+
+figure img  {
+    max-width: 100px;
+    margin: auto;
+    border: thin #c0c0c0 solid;
+}
+figcaption {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    
+    padding: 3px;
+    text-align: center;
+}
+ 
+ /* figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  } */
+  
+  /* img {
+    max-width: 100px;
+    min-height: auto;
+    
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  } */
+  
