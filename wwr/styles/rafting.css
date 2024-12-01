@@ -49,7 +49,6 @@ p {
 }
 
 nav {
-
     background-color: #FFE8D1;
     text-align: right;
 
@@ -85,6 +84,7 @@ nav a {
 .img2 {
     width: 100px;
     height: auto;
+   
 
 
 }
@@ -155,18 +155,17 @@ article {
 }
 
 
-
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: right;
+
+    
+    
 
 }
 
-/* .section1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr  ifr;
-   
-} */
+
 
 .section1 img{
 padding-left: 30rem;
@@ -232,26 +231,14 @@ figcaption {
     text-align: center;
 }
  
- /* figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
+ .header1{
     
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-  } */
-  
-  /* img {
-    max-width: 100px;
-    min-height: auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 1fr;
+	align-items: center;
+	max-width: 1000px;
     
-  }
-  
-  figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-  } */
+ 
+
+}
   
