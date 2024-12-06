@@ -1,0 +1,149 @@
+:root{
+
+
+--primary-color: #FFE8D1;
+    --secondary-color: #194A52;
+    --accent2: #568EA3;
+    --accent1: #826251;
+    --other: #FFFFFF;
+
+    --heading-font: 'Roboto', sans-serif;
+    --text-font-h1: 100;
+    --tex-font-h2: 400;
+
+
+}
+
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    background-color:var(--other) ;
+
+    
+}
+
+header{
+margin: 0 auto;
+width: 800px;
+
+}
+
+h1{
+margin: 1rem;
+color: var(--accent1);
+font-size: 1.5rem;
+text-align: center;
+
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color) ;
+    display: grid;
+}
+
+
+fieldset{
+    display: grid;
+    gap: 0.2rem ;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color:navy;
+    font-size: 1rem;
+
+}
+
+label, input, button, select, textarea{
+
+font-family:  'Times New Roman', Times, sans-serif, serif ;
+
+}
+
+ input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem ;
+
+}
+
+label{
+text-align: right ;
+padding: 1rem
+
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+
+
+}
+
+
+
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none ;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    }
+
+    button:hover{
+
+background-color : darkgreen;
+
+    }
+
+
+   footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+
+   } 
+
+    .form-item{
+
+    display: grid;
+    align-items: center;
+  
+} 
+
+
+ .column1{
+grid-template-columns: 1fr 0.5fr;
+margin: 0.5rem 0;
+
+
+}
+ 
+ .column2{
+grid-template-columns:1fr 2fr ; 
+
+
+}  
