@@ -17,12 +17,13 @@ body {
     font-weight: 400;
     display: block;
     width: auto;
-    margin: 4rem;
-
-
-
-
+   
+   
 }
+
+
+
+
 
 h1 {
     font-family: "Roboto", sans-serif;
@@ -56,9 +57,10 @@ nav {
 }
 
 
-nav a {
+.navigation a {
     text-decoration: none;
     color: var(--secondary-color);
+
 
 }
 
@@ -84,7 +86,7 @@ nav a {
 .img2 {
     width: 100px;
     height: auto;
-   
+
 
 
 }
@@ -157,25 +159,27 @@ article {
 
 .navigation {
     display: flex;
-    justify-content: space-between;
-    text-align: right;
-
-    
-    
-
-}
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+   
 
 
-
-.section1 img{
-padding-left: 30rem;
-width: 300px;
-height: auto;
 
 
 }
 
-.section1 h2{
+
+
+.section1 img {
+    padding-left: 30rem;
+    width: 300px;
+    height: auto;
+
+
+}
+
+.section1 h2 {
 
     padding-left: 35rem;
 }
@@ -183,19 +187,19 @@ height: auto;
 
 
 
- footer{
-display: flex;
-margin-top: 1rem;
-justify-content: flex-end;
-background-color: #FFE8D1;
+footer {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: flex-end;
+    background-color: #FFE8D1;
 
 
- }
+}
 
-footer p{
+footer p {
 
-color: var(--secondary-color);
-padding-right: 20rem;
+    color: var(--secondary-color);
+    padding-right: 20rem;
 
 }
 
@@ -205,40 +209,198 @@ padding-right: 20rem;
 
 
 
- .section2 h2{
-padding-left: 30rem;
+.section2 h2 {
+    padding-left: 30rem;
 
-
- }
-
-.fig{
-
-display: flex;
-justify-content: space-around;        
 
 }
 
-figure img  {
+.fig {
+
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+figure img {
     max-width: 100px;
     margin: auto;
     border: thin #c0c0c0 solid;
 }
+
 figcaption {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    
     padding: 3px;
     text-align: center;
 }
- 
- .header1{
-    
-	display: grid;
-	grid-template-columns: 120px 1fr 1fr;
-	align-items: center;
-	max-width: 1000px;
-    
- 
+
+.header1 {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    width: auto;
+   
+    background-color: var(--primary-color);
+
+
 
 }
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    display: grid;
+    margin-right: 450px;
+
+
+}
+
+
+
+fieldset {
+    display: grid;
+    gap: 0.2rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1rem;
+
+}
+
+
+label,
+input,
+button,
+select,
+textarea {
+
+    font-family: 'Times New Roman', Times, sans-serif, serif;
+
+}
+
+label {
+    text-align: right;
+    padding: 1rem
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+
+    background-color: darkgreen;
+
+}
+
+
+.form-item {
+
+    display: grid;
+    align-items: center;
+
+}
+
+
+.column1 {
+    grid-template-columns: 1fr 0.5fr;
+    margin: 0.5rem 0;
+
+
+
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+
+
+}
+
+
+label {
+    text-align: left;
+    padding: 1rem
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+
+
+} .column1 input {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-right: 100px;
   
+
+
+}
+
+.address p{
+color: var(--secondary-color);
+font-weight: 100;
+
+
+
+}
+
+
+
+.contact{
+padding-left: 500px;
+
+
+}
+.address{
+
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.message{
+margin-top: 4rem;
+padding-left: 500px;
+
+}
+
+.map{
+margin-top: 4rem;
+padding-left: 300px;
+
+
+
+}
+
+.column1 label{
+  justify-self: start; 
+  color: var(--secondary-colo);
+
+
+
+
+}
+
+.myForm{
+
+
+    
+}
