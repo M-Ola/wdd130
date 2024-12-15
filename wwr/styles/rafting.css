@@ -13,6 +13,7 @@
 }
 
 body {
+   margin: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     display: block;
@@ -29,6 +30,8 @@ h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     color: #568EA3;
+   margin-bottom: 4rem;
+
 }
 
 h2 {
@@ -46,8 +49,18 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     color: var(--other);
+    
 
 }
+
+.para {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: var(--other);
+    padding-top: 6rem;
+
+}
+
 
 nav {
     background-color: #FFE8D1;
@@ -117,12 +130,13 @@ article p {
 article {
     position: absolute;
     bottom: 50px;
-    background-color: #ffe8d138;
+    background-color: #e1e0de38;
     margin: 8rem;
     height: 180px;
 
 
 }
+
 
 
 .img3 {
@@ -192,7 +206,7 @@ footer {
     margin-top: 1rem;
     justify-content: flex-end;
     background-color: #FFE8D1;
-margin-right: 1rem;
+    margin-right: 1rem;
 
 }
 
@@ -206,7 +220,10 @@ footer p {
 
 
 
-
+.contact1{
+padding-top: 1rem;
+   background-color: #f1f2f2; 
+}
 
 
 .section2 h2 {
@@ -295,7 +312,7 @@ label {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: var(--secondary-color);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -392,7 +409,7 @@ padding-left: 300px;
 
 .column1 label{
   justify-self: start; 
-  color: var(--secondary-colo);
+  color: var(--secondary-color);
 
 
 
@@ -405,4 +422,139 @@ padding-top: 8px;
 
 }
 
+.home h1{
 
+padding-left: 24rem;
+
+}
+.hero1 h1  {
+ 
+    background-color: transparent;
+  
+    
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 1rem;
+    align-items: center;
+    margin-left:8rem ;
+
+    
+   
+}
+.grid-img img{
+width: 500px;
+
+
+}
+
+
+.learn-more{
+    margin-left: 40rem ;
+    margin-bottom: 2rem;
+
+}
+
+
+.hero2 h2{
+padding-left: 16rem;
+   color: var(--secondary-color); 
+}
+
+.article1 {
+    background-color: transparent;
+   
+
+}
+.article1 {
+   font-size: large;
+
+}
+
+
+.banner {
+    
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 2em;
+    background-color:  #cde8f2;;
+    
+}
+
+.grid-trips{
+display: grid;
+gap: 1rem;
+grid-template-columns: 1fr 1fr 1fr;
+
+align-items: center;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1rem;
+
+
+
+}
+
+.trip img {
+    width: 100%;
+    height: 200px;
+    margin-left: 1rem;
+
+}
+
+
+.trip-details {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.trip-details h3 {
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.trip-details p {
+    margin: 0;
+    color: var(--secondary-color);
+padding-top: 0.5rem;
+}
+
+
+
+#info {
+   
+   margin-top: 2rem;
+    margin-left: 24rem;
+    width: 50%;
+ 
+}
+  
+  #info td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+ 
+  
+  #info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+
+}
+#info caption{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: var(--secondary-color);
+
+}
